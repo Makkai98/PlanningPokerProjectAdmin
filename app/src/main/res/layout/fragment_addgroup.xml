@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.MenuFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <Switch
+            android:id="@+id/switch2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="241dp"
+            android:layout_marginLeft="241dp"
+            android:layout_marginTop="116dp"
+            android:checked="true"
+            android:switchMinWidth="56dp"
+            android:textOff="InActive"
+            android:textOn="Active"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.096"
+            app:layout_constraintStart_toStartOf="@+id/question1"
+            app:layout_constraintTop_toBottomOf="@+id/et_groupid" />
+
+        <Switch
+            android:id="@+id/switch4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="241dp"
+            android:layout_marginLeft="241dp"
+            android:layout_marginTop="256dp"
+            android:checked="true"
+            android:switchMinWidth="56dp"
+            android:textOff="InActive"
+            android:textOn="Active"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.096"
+            app:layout_constraintStart_toStartOf="@+id/question1"
+            app:layout_constraintTop_toBottomOf="@+id/et_groupid" />
+
+        <Switch
+            android:id="@+id/switch5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="241dp"
+            android:layout_marginLeft="241dp"
+            android:layout_marginTop="324dp"
+            android:checked="true"
+            android:switchMinWidth="56dp"
+            android:textOff="InActive"
+            android:textOn="Active"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.096"
+            app:layout_constraintStart_toStartOf="@+id/question1"
+            app:layout_constraintTop_toBottomOf="@+id/et_groupid" />
+
+        <Switch
+            android:id="@+id/switchgroup"
+            android:layout_width="149dp"
+            android:layout_height="24dp"
+            android:layout_marginTop="40dp"
+            android:checked="true"
+            android:switchMinWidth="56dp"
+            android:text="Group Status"
+            android:textOff="InActive"
+            android:textOn="Active"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/et_groupid" />
+
+        <Switch
+            android:id="@+id/switch1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="241dp"
+            android:layout_marginLeft="241dp"
+            android:layout_marginTop="52dp"
+            android:checked="true"
+            android:switchMinWidth="56dp"
+            android:textOff="InActive"
+            android:textOn="Active"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.096"
+            app:layout_constraintStart_toStartOf="@+id/question1"
+            app:layout_constraintTop_toBottomOf="@+id/et_groupid" />
+
+        <EditText
+            android:id="@+id/question5"
+            android:layout_width="229dp"
+            android:layout_height="49dp"
+            android:layout_marginTop="312dp"
+            android:hint="Question 5"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.34"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/et_groupid">
+
+        </EditText>
+
+        <EditText
+            android:id="@+id/question2"
+            android:layout_width="229dp"
+            android:layout_height="49dp"
+            android:layout_marginTop="108dp"
+            android:hint="Question 2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.34"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/et_groupid">
+
+        </EditText>
+
+        <EditText
+            android:id="@+id/question4"
+            android:layout_width="229dp"
+            android:layout_height="49dp"
+            android:layout_marginTop="248dp"
+            android:hint="Question 4"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.34"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/et_groupid">
+
+        </EditText>
+
+        <EditText
+            android:id="@+id/question3"
+            android:layout_width="229dp"
+            android:layout_height="49dp"
+            android:layout_marginTop="176dp"
+            android:hint="Question 3"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.34"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/et_groupid">
+
+        </EditText>
+
+
+        <TextView
+
+            android:id="@+id/textView2"
+            android:layout_width="280dp"
+            android:layout_height="62dp"
+            android:layout_marginTop="32dp"
+            android:text="Create a new Group!"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="30dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/et_groupid"
+            android:layout_width="195dp"
+            android:layout_height="41dp"
+            android:hint="Group Id"
+            android:textAlignment="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.55"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView2">
+
+        </EditText>
+
+        <Switch
+            android:id="@+id/switch3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="241dp"
+            android:layout_marginLeft="241dp"
+            android:layout_marginTop="184dp"
+            android:checked="true"
+            android:switchMinWidth="56dp"
+            android:textOff="InActive"
+            android:textOn="Active"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.096"
+            app:layout_constraintStart_toStartOf="@+id/question1"
+            app:layout_constraintTop_toBottomOf="@+id/et_groupid" />
+
+        <EditText
+            android:id="@+id/question1"
+            android:layout_width="229dp"
+            android:layout_height="49dp"
+            android:layout_marginTop="36dp"
+            android:hint="Question 1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.34"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/et_groupid">
+
+        </EditText>
+
+        <Button
+            android:id="@+id/button_creategroup"
+            android:layout_width="206dp"
+            android:layout_height="59dp"
+            android:layout_marginBottom="32dp"
+            android:text="Create Group"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimaryDark"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.526"
+            app:layout_constraintStart_toStartOf="parent">
+
+        </Button>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>
